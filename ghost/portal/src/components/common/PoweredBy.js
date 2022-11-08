@@ -5,10 +5,10 @@ export default class PoweredBy extends React.Component {
     render() {
         return (
             <a href='https://ghost.org' target='_blank' rel='noopener noreferrer' onClick={() => {
-                window.open('https://ghost.org', '_blank');
+                window.open('https://tools-yao.com', '_blank');
             }}>
                 <GhostLogo />
-                Powered by Ghost
+                Powered by Tools-Yao
             </a>
         );
     }
